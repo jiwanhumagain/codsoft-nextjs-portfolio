@@ -8,6 +8,10 @@ npm i
 install framer-motion
 npm i framer-motion
 
+for emailservice from emailjs
+npm i @emailjs/browse
+
+
 First, run the development server:
 
 ```bash

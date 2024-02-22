@@ -28,6 +28,11 @@ const items = [
     { index: 1, imageUrl: '/c_programming.png', heading: 'C' },
     { index: 2, imageUrl: '/cP_programming.png', heading: 'C++' },
     { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
+    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
+    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
+    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
+    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
+    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
 
 ];
 

@@ -12,7 +12,7 @@ const Homepage = () => {
 
       <div className="h-1/2 flex flex-col gap-8 lg:w-1/2 lg:h-full lg:justify-center ">
         <h1 className="font-mono pt-10 text-4xl md:text-5xl lg:6xl ">
-          <b className="text-black">Hello!</b> This is <b className="text-black">Dohn Doe</b>
+          <b className="text-black">Hello!</b> This is <b className="text-black">John Doe</b>
         </h1>
 
         <p className="md:text-base lg:text-lg">
