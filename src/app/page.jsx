@@ -2,8 +2,19 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Homepage = () => {
 
+const FILE_URL = "/assets/CV.pdf"
+const Homepage = (url) => {
+  const downloadPdf = () => {
+    const fileName = 'CV.pdf'
+    const link = document.createElement('a')
+    link.href = url
+    link.setAttribute("download", fileName)
+    document.body.appendChild(link)
+    link.click()
+    link.remove()
+
+  }
   return (
     <div className="h-full flex lg:flex-row-reverse sm:flex-col px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
       <div className='h-1/2 lg:w-1/2 lg:h-full relative' >
@@ -26,7 +37,10 @@ const Homepage = () => {
         </p>
 
         <div className="flex gap-4">
-          <button className="bg-black ring-2 ring-black text-white p-2 rounded-md font-times font-medium text-xl">Download CV</button>
+        
+          <a href="assets/CV.pdf" download="CV-demo.pdf">
+          <button className="bg-black ring-2 ring-black text-white p-2 rounded-md font-times font-medium text-xl" >Download CV</button>
+          </a>
           <Link href={'/contact'}>
             <button className="ring-4 ring-white text-black p-2 rounded-md font-times font-medium text-xl" >Hire Me Now</button>
           </Link>
