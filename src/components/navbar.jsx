@@ -32,16 +32,16 @@ const Navbar = () => {
 
             </div>
             <div className="hidden md:flex gap-3 h-full items-center justify-between">
-                <Link href="/">
+                <Link href="https://facebook.com/" target="_blank">
                     <Image src="/facebook.png" alt="" height={24} width={24} />
                 </Link>
-                <Link href="/">
+                <Link href="https://linkedin.com"  target="_blank">
                     <Image src="/linkedin.png" alt="" height={24} width={24} />
                 </Link>
-                <Link href="/">
+                <Link href="https://instagram.com"  target="_blank">
                     <Image src="/instagram.png" alt="" height={24} width={24} />
                 </Link>
-                <Link href="/">
+                <Link href="https://github.com/"  target="_blank">
                     <Image src="/github.png" alt="" height={24} width={24} />
                 </Link>
             </div>

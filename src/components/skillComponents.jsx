@@ -8,7 +8,7 @@ const DynamicElement = ({ imageUrl, heading }) => {
       <div className="w-30 h-30">
         <Image src={imageUrl} alt={heading} width={100} height={100} className="" />
       </div>
-      <div className="font-bold text-4xl md:text-6xl">
+      <div className="font-bold text-4xl ">
         <h1 className="bg-gradient-to-r from-blue-600 via-zinc-400 to-indigo-400 inline-block text-transparent bg-clip-text">{heading}</h1>
       </div>
     </div>

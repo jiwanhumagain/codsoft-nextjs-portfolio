@@ -28,13 +28,16 @@ const items = [
     { index: 1, imageUrl: '/c_programming.png', heading: 'C' },
     { index: 2, imageUrl: '/cP_programming.png', heading: 'C++' },
     { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
-    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
-    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
-    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
-    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
-    { index: 3, imageUrl: '/javascript.png', heading: 'JS' },
+    { index: 4, imageUrl: '/react.png', heading: 'ReactJS' },
+    { index: 5, imageUrl: '/node.png', heading: 'NodeJS' },
+    { index: 6, imageUrl: '/flutter.png', heading: 'Flutter' },
+    { index: 7, imageUrl: '/mongodb.png', heading: 'MongoDB' },
+    { index: 8, imageUrl: '/mySql.png', heading: 'MySql' },
+    { index: 9, imageUrl: '/firebase.png', heading: 'FireBase' },
+
 
 ];
+
 
 const AboutPage = () => {
 
